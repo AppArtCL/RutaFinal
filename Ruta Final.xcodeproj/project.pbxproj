@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62474BCC1E1603FF00E3796C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BCB1E1603FF00E3796C /* AppDelegate.swift */; };
+		62474BCE1E1603FF00E3796C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BCD1E1603FF00E3796C /* ViewController.swift */; };
+		62474BD11E1603FF00E3796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62474BCF1E1603FF00E3796C /* Main.storyboard */; };
+		62474BD31E1603FF00E3796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62474BD21E1603FF00E3796C /* Assets.xcassets */; };
+		62474BD61E1603FF00E3796C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62474BD41E1603FF00E3796C /* LaunchScreen.storyboard */; };
+		62474BDB1E1603FF00E3796C /* Ruta Final WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 62474BDA1E1603FF00E3796C /* Ruta Final WatchKit App.app */; };
+		62474BE11E1603FF00E3796C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62474BDF1E1603FF00E3796C /* Interface.storyboard */; };
+		62474BE31E1603FF00E3796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62474BE21E1603FF00E3796C /* Assets.xcassets */; };
+		62474BEA1E16040000E3796C /* Ruta Final WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 62474BE91E16040000E3796C /* Ruta Final WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		62474BF11E16040000E3796C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BF01E16040000E3796C /* InterfaceController.swift */; };
+		62474BF31E16040000E3796C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BF21E16040000E3796C /* ExtensionDelegate.swift */; };
+		62474BF51E16040000E3796C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BF41E16040000E3796C /* NotificationController.swift */; };
+		62474BF71E16040000E3796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62474BF61E16040000E3796C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62474BDC1E1603FF00E3796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62474BC01E1603FF00E3796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62474BD91E1603FF00E3796C;
+			remoteInfo = "Ruta Final WatchKit App";
+		};
+		62474BEB1E16040000E3796C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62474BC01E1603FF00E3796C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62474BE81E16040000E3796C;
+			remoteInfo = "Ruta Final WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62474BFE1E16040000E3796C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				62474BEA1E16040000E3796C /* Ruta Final WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62474C021E16040000E3796C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				62474BDB1E1603FF00E3796C /* Ruta Final WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62474BC81E1603FF00E3796C /* Ruta Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruta Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62474BCB1E1603FF00E3796C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62474BCD1E1603FF00E3796C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62474BD01E1603FF00E3796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62474BD21E1603FF00E3796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62474BD51E1603FF00E3796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62474BD71E1603FF00E3796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62474BDA1E1603FF00E3796C /* Ruta Final WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruta Final WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62474BE01E1603FF00E3796C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		62474BE21E1603FF00E3796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62474BE41E1603FF00E3796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62474BE91E16040000E3796C /* Ruta Final WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Ruta Final WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62474BEF1E16040000E3796C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		62474BF01E16040000E3796C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		62474BF21E16040000E3796C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		62474BF41E16040000E3796C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		62474BF61E16040000E3796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62474BF81E16040000E3796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62474BC51E1603FF00E3796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62474BE61E16040000E3796C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62474BBF1E1603FF00E3796C = {
+			isa = PBXGroup;
+			children = (
+				62474BCA1E1603FF00E3796C /* Ruta Final */,
+				62474BDE1E1603FF00E3796C /* Ruta Final WatchKit App */,
+				62474BED1E16040000E3796C /* Ruta Final WatchKit Extension */,
+				62474BC91E1603FF00E3796C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62474BC91E1603FF00E3796C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62474BC81E1603FF00E3796C /* Ruta Final.app */,
+				62474BDA1E1603FF00E3796C /* Ruta Final WatchKit App.app */,
+				62474BE91E16040000E3796C /* Ruta Final WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62474BCA1E1603FF00E3796C /* Ruta Final */ = {
+			isa = PBXGroup;
+			children = (
+				62474BCB1E1603FF00E3796C /* AppDelegate.swift */,
+				62474BCD1E1603FF00E3796C /* ViewController.swift */,
+				62474BCF1E1603FF00E3796C /* Main.storyboard */,
+				62474BD21E1603FF00E3796C /* Assets.xcassets */,
+				62474BD41E1603FF00E3796C /* LaunchScreen.storyboard */,
+				62474BD71E1603FF00E3796C /* Info.plist */,
+			);
+			path = "Ruta Final";
+			sourceTree = "<group>";
+		};
+		62474BDE1E1603FF00E3796C /* Ruta Final WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				62474BDF1E1603FF00E3796C /* Interface.storyboard */,
+				62474BE21E1603FF00E3796C /* Assets.xcassets */,
+				62474BE41E1603FF00E3796C /* Info.plist */,
+			);
+			path = "Ruta Final WatchKit App";
+			sourceTree = "<group>";
+		};
+		62474BED1E16040000E3796C /* Ruta Final WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				62474BF01E16040000E3796C /* InterfaceController.swift */,
+				62474BF21E16040000E3796C /* ExtensionDelegate.swift */,
+				62474BF41E16040000E3796C /* NotificationController.swift */,
+				62474BF61E16040000E3796C /* Assets.xcassets */,
+				62474BF81E16040000E3796C /* Info.plist */,
+				62474BEE1E16040000E3796C /* Supporting Files */,
+			);
+			path = "Ruta Final WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		62474BEE1E16040000E3796C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62474BEF1E16040000E3796C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62474BC71E1603FF00E3796C /* Ruta Final */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62474C031E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final" */;
+			buildPhases = (
+				62474BC41E1603FF00E3796C /* Sources */,
+				62474BC51E1603FF00E3796C /* Frameworks */,
+				62474BC61E1603FF00E3796C /* Resources */,
+				62474C021E16040000E3796C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62474BDD1E1603FF00E3796C /* PBXTargetDependency */,
+			);
+			name = "Ruta Final";
+			productName = "Ruta Final";
+			productReference = 62474BC81E1603FF00E3796C /* Ruta Final.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62474BD91E1603FF00E3796C /* Ruta Final WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62474BFF1E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final WatchKit App" */;
+			buildPhases = (
+				62474BD81E1603FF00E3796C /* Resources */,
+				62474BFE1E16040000E3796C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62474BEC1E16040000E3796C /* PBXTargetDependency */,
+			);
+			name = "Ruta Final WatchKit App";
+			productName = "Ruta Final WatchKit App";
+			productReference = 62474BDA1E1603FF00E3796C /* Ruta Final WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		62474BE81E16040000E3796C /* Ruta Final WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62474BFB1E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final WatchKit Extension" */;
+			buildPhases = (
+				62474BE51E16040000E3796C /* Sources */,
+				62474BE61E16040000E3796C /* Frameworks */,
+				62474BE71E16040000E3796C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ruta Final WatchKit Extension";
+			productName = "Ruta Final WatchKit Extension";
+			productReference = 62474BE91E16040000E3796C /* Ruta Final WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62474BC01E1603FF00E3796C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AppArt;
+				TargetAttributes = {
+					62474BC71E1603FF00E3796C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7RX683DJ65;
+						ProvisioningStyle = Automatic;
+					};
+					62474BD91E1603FF00E3796C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7RX683DJ65;
+						ProvisioningStyle = Automatic;
+					};
+					62474BE81E16040000E3796C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7RX683DJ65;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62474BC31E1603FF00E3796C /* Build configuration list for PBXProject "Ruta Final" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62474BBF1E1603FF00E3796C;
+			productRefGroup = 62474BC91E1603FF00E3796C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62474BC71E1603FF00E3796C /* Ruta Final */,
+				62474BD91E1603FF00E3796C /* Ruta Final WatchKit App */,
+				62474BE81E16040000E3796C /* Ruta Final WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62474BC61E1603FF00E3796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62474BD61E1603FF00E3796C /* LaunchScreen.storyboard in Resources */,
+				62474BD31E1603FF00E3796C /* Assets.xcassets in Resources */,
+				62474BD11E1603FF00E3796C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62474BD81E1603FF00E3796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62474BE31E1603FF00E3796C /* Assets.xcassets in Resources */,
+				62474BE11E1603FF00E3796C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62474BE71E16040000E3796C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62474BF71E16040000E3796C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62474BC41E1603FF00E3796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62474BCE1E1603FF00E3796C /* ViewController.swift in Sources */,
+				62474BCC1E1603FF00E3796C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62474BE51E16040000E3796C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62474BF51E16040000E3796C /* NotificationController.swift in Sources */,
+				62474BF31E16040000E3796C /* ExtensionDelegate.swift in Sources */,
+				62474BF11E16040000E3796C /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62474BDD1E1603FF00E3796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62474BD91E1603FF00E3796C /* Ruta Final WatchKit App */;
+			targetProxy = 62474BDC1E1603FF00E3796C /* PBXContainerItemProxy */;
+		};
+		62474BEC1E16040000E3796C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62474BE81E16040000E3796C /* Ruta Final WatchKit Extension */;
+			targetProxy = 62474BEB1E16040000E3796C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62474BCF1E1603FF00E3796C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62474BD01E1603FF00E3796C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62474BD41E1603FF00E3796C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62474BD51E1603FF00E3796C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		62474BDF1E1603FF00E3796C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62474BE01E1603FF00E3796C /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62474BF91E16040000E3796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62474BFA1E16040000E3796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62474BFC1E16040000E3796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				INFOPLIST_FILE = "Ruta Final WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		62474BFD1E16040000E3796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				INFOPLIST_FILE = "Ruta Final WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		62474C001E16040000E3796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				IBSC_MODULE = Ruta_Final_WatchKit_Extension;
+				INFOPLIST_FILE = "Ruta Final WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		62474C011E16040000E3796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				IBSC_MODULE = Ruta_Final_WatchKit_Extension;
+				INFOPLIST_FILE = "Ruta Final WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		62474C041E16040000E3796C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				INFOPLIST_FILE = "Ruta Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		62474C051E16040000E3796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7RX683DJ65;
+				INFOPLIST_FILE = "Ruta Final/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cl.appart.Ruta-Final";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62474BC31E1603FF00E3796C /* Build configuration list for PBXProject "Ruta Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62474BF91E16040000E3796C /* Debug */,
+				62474BFA1E16040000E3796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62474BFB1E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62474BFC1E16040000E3796C /* Debug */,
+				62474BFD1E16040000E3796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62474BFF1E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62474C001E16040000E3796C /* Debug */,
+				62474C011E16040000E3796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62474C031E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62474C041E16040000E3796C /* Debug */,
+				62474C051E16040000E3796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62474BC01E1603FF00E3796C /* Project object */;
+}
