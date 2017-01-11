@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6228D0D11E25F4F000C21901 /* Icono AR.png in Resources */ = {isa = PBXBuildFile; fileRef = 6228D0D01E25F4F000C21901 /* Icono AR.png */; };
 		62474BCC1E1603FF00E3796C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BCB1E1603FF00E3796C /* AppDelegate.swift */; };
 		62474BCE1E1603FF00E3796C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BCD1E1603FF00E3796C /* ViewController.swift */; };
 		62474BD11E1603FF00E3796C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62474BCF1E1603FF00E3796C /* Main.storyboard */; };
@@ -39,7 +40,6 @@
 		627038841E259A250018C091 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038831E259A250018C091 /* CoreLocation.framework */; };
 		627038861E259A300018C091 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038851E259A300018C091 /* CoreMotion.framework */; };
 		627038881E259A3C0018C091 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038871E259A3C0018C091 /* MapKit.framework */; };
-		6270388C1E25C6780018C091 /* Icono AR.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270388B1E25C6780018C091 /* Icono AR.png */; };
 		62AE80911E186BDC00B35F1A /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80901E186BDC00B35F1A /* QRViewController.swift */; };
 		62AE80931E186DB700B35F1A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80921E186DB700B35F1A /* WebViewController.swift */; };
 		62AE80981E19404200B35F1A /* DetalleEventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80971E19404200B35F1A /* DetalleEventoViewController.swift */; };
@@ -102,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6228D0D01E25F4F000C21901 /* Icono AR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono AR.png"; sourceTree = "<group>"; };
 		62474BC81E1603FF00E3796C /* Ruta Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruta Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62474BCB1E1603FF00E3796C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62474BCD1E1603FF00E3796C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,7 +140,6 @@
 		627038831E259A250018C091 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		627038851E259A300018C091 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		627038871E259A3C0018C091 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		6270388B1E25C6780018C091 /* Icono AR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icono AR.png"; path = "../../../../Desktop/Tarea Final/Icono AR.png"; sourceTree = "<group>"; };
 		62AE80901E186BDC00B35F1A /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		62AE80921E186DB700B35F1A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		62AE80971E19404200B35F1A /* DetalleEventoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleEventoViewController.swift; sourceTree = "<group>"; };
@@ -257,8 +257,8 @@
 		62474C061E16052E00E3796C /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
-				6270388B1E25C6780018C091 /* Icono AR.png */,
 				62474C0F1E16126300E3796C /* Icono Acerca.png */,
+				6228D0D01E25F4F000C21901 /* Icono AR.png */,
 				62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */,
 				62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */,
 				62AE80AC1E1A913300B35F1A /* Icono camara.png */,
@@ -483,7 +483,7 @@
 				62474C0E1E16111F00E3796C /* Icono Eventos.png in Resources */,
 				62474C081E16054B00E3796C /* Icono Ruta.png in Resources */,
 				62C6AC7B1E233A3D00DEE242 /* Icono Crear Ruta.png in Resources */,
-				6270388C1E25C6780018C091 /* Icono AR.png in Resources */,
+				6228D0D11E25F4F000C21901 /* Icono AR.png in Resources */,
 				62474BD31E1603FF00E3796C /* Assets.xcassets in Resources */,
 				62C6AC7D1E233BF200DEE242 /* Icono Ayuda.png in Resources */,
 				62474BD11E1603FF00E3796C /* Main.storyboard in Resources */,
