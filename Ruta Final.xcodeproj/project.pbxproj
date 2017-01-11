@@ -39,7 +39,6 @@
 		627038841E259A250018C091 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038831E259A250018C091 /* CoreLocation.framework */; };
 		627038861E259A300018C091 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038851E259A300018C091 /* CoreMotion.framework */; };
 		627038881E259A3C0018C091 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038871E259A3C0018C091 /* MapKit.framework */; };
-		6270388A1E259B920018C091 /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627038891E259B920018C091 /* TestAnnotationView.swift */; };
 		6270388C1E25C6780018C091 /* Icono AR.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270388B1E25C6780018C091 /* Icono AR.png */; };
 		62AE80911E186BDC00B35F1A /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80901E186BDC00B35F1A /* QRViewController.swift */; };
 		62AE80931E186DB700B35F1A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80921E186DB700B35F1A /* WebViewController.swift */; };
@@ -57,6 +56,7 @@
 		62C6AC7D1E233BF200DEE242 /* Icono Ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */; };
 		62C6AC7F1E233D7400DEE242 /* Icono Ayuda Portada.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */; };
 		62C6AC821E233E8000DEE242 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C6AC811E233E8000DEE242 /* AyudaViewController.swift */; };
+		62E041711E25F3C300ABBEC7 /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E041701E25F3C300ABBEC7 /* TestAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,7 +139,6 @@
 		627038831E259A250018C091 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		627038851E259A300018C091 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		627038871E259A3C0018C091 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		627038891E259B920018C091 /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAnnotationView.swift; path = "../../../../Downloads/HDAugmentedReality-master/HDAugmentedRealityDemo/TestAnnotationView.swift"; sourceTree = "<group>"; };
 		6270388B1E25C6780018C091 /* Icono AR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icono AR.png"; path = "../../../../Desktop/Tarea Final/Icono AR.png"; sourceTree = "<group>"; };
 		62AE80901E186BDC00B35F1A /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
 		62AE80921E186DB700B35F1A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +156,7 @@
 		62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Ayuda.png"; sourceTree = "<group>"; };
 		62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Ayuda Portada.png"; sourceTree = "<group>"; };
 		62C6AC811E233E8000DEE242 /* AyudaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
+		62E041701E25F3C300ABBEC7 /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 		62474BCA1E1603FF00E3796C /* Ruta Final */ = {
 			isa = PBXGroup;
 			children = (
-				627038891E259B920018C091 /* TestAnnotationView.swift */,
+				62E041701E25F3C300ABBEC7 /* TestAnnotationView.swift */,
 				627038791E2597160018C091 /* Resources */,
 				624925B71E2594F50071E1A6 /* Classes */,
 				62474BCB1E1603FF00E3796C /* AppDelegate.swift */,
@@ -518,7 +518,7 @@
 				62AE80981E19404200B35F1A /* DetalleEventoViewController.swift in Sources */,
 				627038731E25967C0018C091 /* ARConfiguration.swift in Sources */,
 				627038781E2596DC0018C091 /* DebugMapViewController.swift in Sources */,
-				6270388A1E259B920018C091 /* TestAnnotationView.swift in Sources */,
+				62E041711E25F3C300ABBEC7 /* TestAnnotationView.swift in Sources */,
 				627038741E25967C0018C091 /* ARTrackingManager.swift in Sources */,
 				62474BCE1E1603FF00E3796C /* ViewController.swift in Sources */,
 				62AE809A1E19502500B35F1A /* EventoTableViewController.swift in Sources */,
