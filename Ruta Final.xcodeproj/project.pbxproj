@@ -20,6 +20,43 @@
 		62474BF31E16040000E3796C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BF21E16040000E3796C /* ExtensionDelegate.swift */; };
 		62474BF51E16040000E3796C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474BF41E16040000E3796C /* NotificationController.swift */; };
 		62474BF71E16040000E3796C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62474BF61E16040000E3796C /* Assets.xcassets */; };
+		62474C081E16054B00E3796C /* Icono Ruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 62474C071E16054B00E3796C /* Icono Ruta.png */; };
+		62474C0C1E160C1900E3796C /* Icono QR.png in Resources */ = {isa = PBXBuildFile; fileRef = 62474C0B1E160C1900E3796C /* Icono QR.png */; };
+		62474C0E1E16111F00E3796C /* Icono Eventos.png in Resources */ = {isa = PBXBuildFile; fileRef = 62474C0D1E16111F00E3796C /* Icono Eventos.png */; };
+		62474C101E16126300E3796C /* Icono Acerca.png in Resources */ = {isa = PBXBuildFile; fileRef = 62474C0F1E16126300E3796C /* Icono Acerca.png */; };
+		62474C121E16177B00E3796C /* AcercaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62474C111E16177B00E3796C /* AcercaViewController.swift */; };
+		624925B61E2593C60071E1A6 /* ARealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624925B51E2593C60071E1A6 /* ARealViewController.swift */; };
+		627038711E25967C0018C091 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270386C1E25967C0018C091 /* ARAnnotation.swift */; };
+		627038721E25967C0018C091 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270386D1E25967C0018C091 /* ARAnnotationView.swift */; };
+		627038731E25967C0018C091 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270386E1E25967C0018C091 /* ARConfiguration.swift */; };
+		627038741E25967C0018C091 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6270386F1E25967C0018C091 /* ARTrackingManager.swift */; };
+		627038751E25967C0018C091 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627038701E25967C0018C091 /* ARViewController.swift */; };
+		627038781E2596DC0018C091 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627038771E2596DC0018C091 /* DebugMapViewController.swift */; };
+		6270387E1E2597460018C091 /* DebugMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6270387A1E2597460018C091 /* DebugMapViewController.xib */; };
+		6270387F1E2597460018C091 /* hdar_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270387B1E2597460018C091 /* hdar_close.png */; };
+		627038801E2597460018C091 /* hdar_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270387C1E2597460018C091 /* hdar_close@2x.png */; };
+		627038811E2597460018C091 /* hdar_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270387D1E2597460018C091 /* hdar_close@3x.png */; };
+		627038841E259A250018C091 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038831E259A250018C091 /* CoreLocation.framework */; };
+		627038861E259A300018C091 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038851E259A300018C091 /* CoreMotion.framework */; };
+		627038881E259A3C0018C091 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627038871E259A3C0018C091 /* MapKit.framework */; };
+		6270388A1E259B920018C091 /* TestAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627038891E259B920018C091 /* TestAnnotationView.swift */; };
+		6270388C1E25C6780018C091 /* Icono AR.png in Resources */ = {isa = PBXBuildFile; fileRef = 6270388B1E25C6780018C091 /* Icono AR.png */; };
+		62AE80911E186BDC00B35F1A /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80901E186BDC00B35F1A /* QRViewController.swift */; };
+		62AE80931E186DB700B35F1A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80921E186DB700B35F1A /* WebViewController.swift */; };
+		62AE80981E19404200B35F1A /* DetalleEventoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80971E19404200B35F1A /* DetalleEventoViewController.swift */; };
+		62AE809A1E19502500B35F1A /* EventoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80991E19502500B35F1A /* EventoTableViewController.swift */; };
+		62AE809E1E19903400B35F1A /* RutaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE809D1E19903400B35F1A /* RutaTableViewController.swift */; };
+		62AE80A11E19919600B35F1A /* RutasModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62AE809F1E19919600B35F1A /* RutasModel.xcdatamodeld */; };
+		62AE80A91E19B00500B35F1A /* CrearRutaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80A81E19B00500B35F1A /* CrearRutaViewController.swift */; };
+		62AE80AB1E19D5E600B35F1A /* MapaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80AA1E19D5E600B35F1A /* MapaViewController.swift */; };
+		62AE80AD1E1A913300B35F1A /* Icono camara.png in Resources */ = {isa = PBXBuildFile; fileRef = 62AE80AC1E1A913300B35F1A /* Icono camara.png */; };
+		62AE80AF1E1A93BE00B35F1A /* FotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62AE80AE1E1A93BE00B35F1A /* FotoViewController.swift */; };
+		62AE80B11E1A959A00B35F1A /* Icono QR 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 62AE80B01E1A959A00B35F1A /* Icono QR 2.png */; };
+		62AE80B31E1A9A8900B35F1A /* Icono Place.png in Resources */ = {isa = PBXBuildFile; fileRef = 62AE80B21E1A9A8900B35F1A /* Icono Place.png */; };
+		62C6AC7B1E233A3D00DEE242 /* Icono Crear Ruta.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C6AC7A1E233A3D00DEE242 /* Icono Crear Ruta.png */; };
+		62C6AC7D1E233BF200DEE242 /* Icono Ayuda.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */; };
+		62C6AC7F1E233D7400DEE242 /* Icono Ayuda Portada.png in Resources */ = {isa = PBXBuildFile; fileRef = 62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */; };
+		62C6AC821E233E8000DEE242 /* AyudaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C6AC811E233E8000DEE242 /* AyudaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +120,43 @@
 		62474BF41E16040000E3796C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		62474BF61E16040000E3796C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62474BF81E16040000E3796C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62474C071E16054B00E3796C /* Icono Ruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Ruta.png"; sourceTree = "<group>"; };
+		62474C0B1E160C1900E3796C /* Icono QR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono QR.png"; sourceTree = "<group>"; };
+		62474C0D1E16111F00E3796C /* Icono Eventos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Eventos.png"; sourceTree = "<group>"; };
+		62474C0F1E16126300E3796C /* Icono Acerca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Acerca.png"; sourceTree = "<group>"; };
+		62474C111E16177B00E3796C /* AcercaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcercaViewController.swift; sourceTree = "<group>"; };
+		624925B51E2593C60071E1A6 /* ARealViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARealViewController.swift; sourceTree = "<group>"; };
+		6270386C1E25967C0018C091 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
+		6270386D1E25967C0018C091 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotationView.swift; sourceTree = "<group>"; };
+		6270386E1E25967C0018C091 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARConfiguration.swift; sourceTree = "<group>"; };
+		6270386F1E25967C0018C091 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARTrackingManager.swift; sourceTree = "<group>"; };
+		627038701E25967C0018C091 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		627038771E2596DC0018C091 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugMapViewController.swift; sourceTree = "<group>"; };
+		6270387A1E2597460018C091 /* DebugMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DebugMapViewController.xib; sourceTree = "<group>"; };
+		6270387B1E2597460018C091 /* hdar_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hdar_close.png; sourceTree = "<group>"; };
+		6270387C1E2597460018C091 /* hdar_close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@2x.png"; sourceTree = "<group>"; };
+		6270387D1E2597460018C091 /* hdar_close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hdar_close@3x.png"; sourceTree = "<group>"; };
+		627038831E259A250018C091 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		627038851E259A300018C091 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		627038871E259A3C0018C091 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		627038891E259B920018C091 /* TestAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestAnnotationView.swift; path = "../../../../Downloads/HDAugmentedReality-master/HDAugmentedRealityDemo/TestAnnotationView.swift"; sourceTree = "<group>"; };
+		6270388B1E25C6780018C091 /* Icono AR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icono AR.png"; path = "../../../../Desktop/Tarea Final/Icono AR.png"; sourceTree = "<group>"; };
+		62AE80901E186BDC00B35F1A /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		62AE80921E186DB700B35F1A /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		62AE80971E19404200B35F1A /* DetalleEventoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalleEventoViewController.swift; sourceTree = "<group>"; };
+		62AE80991E19502500B35F1A /* EventoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventoTableViewController.swift; sourceTree = "<group>"; };
+		62AE809D1E19903400B35F1A /* RutaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RutaTableViewController.swift; sourceTree = "<group>"; };
+		62AE80A01E19919600B35F1A /* RutasModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RutasModel.xcdatamodel; sourceTree = "<group>"; };
+		62AE80A81E19B00500B35F1A /* CrearRutaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearRutaViewController.swift; sourceTree = "<group>"; };
+		62AE80AA1E19D5E600B35F1A /* MapaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaViewController.swift; sourceTree = "<group>"; };
+		62AE80AC1E1A913300B35F1A /* Icono camara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono camara.png"; sourceTree = "<group>"; };
+		62AE80AE1E1A93BE00B35F1A /* FotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoViewController.swift; sourceTree = "<group>"; };
+		62AE80B01E1A959A00B35F1A /* Icono QR 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono QR 2.png"; sourceTree = "<group>"; };
+		62AE80B21E1A9A8900B35F1A /* Icono Place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Place.png"; sourceTree = "<group>"; };
+		62C6AC7A1E233A3D00DEE242 /* Icono Crear Ruta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Crear Ruta.png"; sourceTree = "<group>"; };
+		62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Ayuda.png"; sourceTree = "<group>"; };
+		62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icono Ayuda Portada.png"; sourceTree = "<group>"; };
+		62C6AC811E233E8000DEE242 /* AyudaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AyudaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +164,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				627038881E259A3C0018C091 /* MapKit.framework in Frameworks */,
+				627038861E259A300018C091 /* CoreMotion.framework in Frameworks */,
+				627038841E259A250018C091 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,6 +187,7 @@
 				62474BDE1E1603FF00E3796C /* Ruta Final WatchKit App */,
 				62474BED1E16040000E3796C /* Ruta Final WatchKit Extension */,
 				62474BC91E1603FF00E3796C /* Products */,
+				627038821E259A240018C091 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,12 +204,21 @@
 		62474BCA1E1603FF00E3796C /* Ruta Final */ = {
 			isa = PBXGroup;
 			children = (
+				627038891E259B920018C091 /* TestAnnotationView.swift */,
+				627038791E2597160018C091 /* Resources */,
+				624925B71E2594F50071E1A6 /* Classes */,
 				62474BCB1E1603FF00E3796C /* AppDelegate.swift */,
 				62474BCD1E1603FF00E3796C /* ViewController.swift */,
 				62474BCF1E1603FF00E3796C /* Main.storyboard */,
+				62AE809C1E198FB400B35F1A /* Rutas */,
+				62AE809B1E198F8000B35F1A /* Acerca de */,
+				62AE808F1E186B6800B35F1A /* QR Code */,
+				62AE80941E193FF300B35F1A /* Eventos */,
+				62C6AC801E233E1E00DEE242 /* Ayuda */,
 				62474BD21E1603FF00E3796C /* Assets.xcassets */,
 				62474BD41E1603FF00E3796C /* LaunchScreen.storyboard */,
 				62474BD71E1603FF00E3796C /* Info.plist */,
+				62474C061E16052E00E3796C /* Recursos */,
 			);
 			path = "Ruta Final";
 			sourceTree = "<group>";
@@ -165,6 +252,113 @@
 				62474BEF1E16040000E3796C /* PushNotificationPayload.apns */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62474C061E16052E00E3796C /* Recursos */ = {
+			isa = PBXGroup;
+			children = (
+				6270388B1E25C6780018C091 /* Icono AR.png */,
+				62474C0F1E16126300E3796C /* Icono Acerca.png */,
+				62C6AC7C1E233BF200DEE242 /* Icono Ayuda.png */,
+				62C6AC7E1E233D7400DEE242 /* Icono Ayuda Portada.png */,
+				62AE80AC1E1A913300B35F1A /* Icono camara.png */,
+				62C6AC7A1E233A3D00DEE242 /* Icono Crear Ruta.png */,
+				62474C0D1E16111F00E3796C /* Icono Eventos.png */,
+				62474C0B1E160C1900E3796C /* Icono QR.png */,
+				62AE80B21E1A9A8900B35F1A /* Icono Place.png */,
+				62AE80B01E1A959A00B35F1A /* Icono QR 2.png */,
+				62474C071E16054B00E3796C /* Icono Ruta.png */,
+			);
+			name = Recursos;
+			sourceTree = "<group>";
+		};
+		624925B71E2594F50071E1A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				627038761E2596BF0018C091 /* Debug */,
+				6270386C1E25967C0018C091 /* ARAnnotation.swift */,
+				6270386D1E25967C0018C091 /* ARAnnotationView.swift */,
+				6270386E1E25967C0018C091 /* ARConfiguration.swift */,
+				6270386F1E25967C0018C091 /* ARTrackingManager.swift */,
+				627038701E25967C0018C091 /* ARViewController.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		627038761E2596BF0018C091 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				627038771E2596DC0018C091 /* DebugMapViewController.swift */,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		627038791E2597160018C091 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6270387A1E2597460018C091 /* DebugMapViewController.xib */,
+				6270387B1E2597460018C091 /* hdar_close.png */,
+				6270387C1E2597460018C091 /* hdar_close@2x.png */,
+				6270387D1E2597460018C091 /* hdar_close@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		627038821E259A240018C091 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627038871E259A3C0018C091 /* MapKit.framework */,
+				627038851E259A300018C091 /* CoreMotion.framework */,
+				627038831E259A250018C091 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62AE808F1E186B6800B35F1A /* QR Code */ = {
+			isa = PBXGroup;
+			children = (
+				62AE80901E186BDC00B35F1A /* QRViewController.swift */,
+				62AE80921E186DB700B35F1A /* WebViewController.swift */,
+			);
+			name = "QR Code";
+			sourceTree = "<group>";
+		};
+		62AE80941E193FF300B35F1A /* Eventos */ = {
+			isa = PBXGroup;
+			children = (
+				62AE80991E19502500B35F1A /* EventoTableViewController.swift */,
+				62AE80971E19404200B35F1A /* DetalleEventoViewController.swift */,
+			);
+			name = Eventos;
+			sourceTree = "<group>";
+		};
+		62AE809B1E198F8000B35F1A /* Acerca de */ = {
+			isa = PBXGroup;
+			children = (
+				62474C111E16177B00E3796C /* AcercaViewController.swift */,
+			);
+			name = "Acerca de";
+			sourceTree = "<group>";
+		};
+		62AE809C1E198FB400B35F1A /* Rutas */ = {
+			isa = PBXGroup;
+			children = (
+				62AE809D1E19903400B35F1A /* RutaTableViewController.swift */,
+				62AE809F1E19919600B35F1A /* RutasModel.xcdatamodeld */,
+				62AE80A81E19B00500B35F1A /* CrearRutaViewController.swift */,
+				62AE80AA1E19D5E600B35F1A /* MapaViewController.swift */,
+				62AE80AE1E1A93BE00B35F1A /* FotoViewController.swift */,
+				624925B51E2593C60071E1A6 /* ARealViewController.swift */,
+			);
+			name = Rutas;
+			sourceTree = "<group>";
+		};
+		62C6AC801E233E1E00DEE242 /* Ayuda */ = {
+			isa = PBXGroup;
+			children = (
+				62C6AC811E233E8000DEE242 /* AyudaViewController.swift */,
+			);
+			name = Ayuda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,8 +469,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AE80B11E1A959A00B35F1A /* Icono QR 2.png in Resources */,
+				6270387F1E2597460018C091 /* hdar_close.png in Resources */,
+				627038801E2597460018C091 /* hdar_close@2x.png in Resources */,
+				62AE80AD1E1A913300B35F1A /* Icono camara.png in Resources */,
 				62474BD61E1603FF00E3796C /* LaunchScreen.storyboard in Resources */,
+				6270387E1E2597460018C091 /* DebugMapViewController.xib in Resources */,
+				62C6AC7F1E233D7400DEE242 /* Icono Ayuda Portada.png in Resources */,
+				62474C0C1E160C1900E3796C /* Icono QR.png in Resources */,
+				62474C101E16126300E3796C /* Icono Acerca.png in Resources */,
+				627038811E2597460018C091 /* hdar_close@3x.png in Resources */,
+				62AE80B31E1A9A8900B35F1A /* Icono Place.png in Resources */,
+				62474C0E1E16111F00E3796C /* Icono Eventos.png in Resources */,
+				62474C081E16054B00E3796C /* Icono Ruta.png in Resources */,
+				62C6AC7B1E233A3D00DEE242 /* Icono Crear Ruta.png in Resources */,
+				6270388C1E25C6780018C091 /* Icono AR.png in Resources */,
 				62474BD31E1603FF00E3796C /* Assets.xcassets in Resources */,
+				62C6AC7D1E233BF200DEE242 /* Icono Ayuda.png in Resources */,
 				62474BD11E1603FF00E3796C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,7 +514,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62AE80AB1E19D5E600B35F1A /* MapaViewController.swift in Sources */,
+				62AE80981E19404200B35F1A /* DetalleEventoViewController.swift in Sources */,
+				627038731E25967C0018C091 /* ARConfiguration.swift in Sources */,
+				627038781E2596DC0018C091 /* DebugMapViewController.swift in Sources */,
+				6270388A1E259B920018C091 /* TestAnnotationView.swift in Sources */,
+				627038741E25967C0018C091 /* ARTrackingManager.swift in Sources */,
 				62474BCE1E1603FF00E3796C /* ViewController.swift in Sources */,
+				62AE809A1E19502500B35F1A /* EventoTableViewController.swift in Sources */,
+				62AE80A11E19919600B35F1A /* RutasModel.xcdatamodeld in Sources */,
+				62AE809E1E19903400B35F1A /* RutaTableViewController.swift in Sources */,
+				62C6AC821E233E8000DEE242 /* AyudaViewController.swift in Sources */,
+				624925B61E2593C60071E1A6 /* ARealViewController.swift in Sources */,
+				62474C121E16177B00E3796C /* AcercaViewController.swift in Sources */,
+				62AE80A91E19B00500B35F1A /* CrearRutaViewController.swift in Sources */,
+				627038721E25967C0018C091 /* ARAnnotationView.swift in Sources */,
+				62AE80911E186BDC00B35F1A /* QRViewController.swift in Sources */,
+				627038751E25967C0018C091 /* ARViewController.swift in Sources */,
+				62AE80931E186DB700B35F1A /* WebViewController.swift in Sources */,
+				62AE80AF1E1A93BE00B35F1A /* FotoViewController.swift in Sources */,
+				627038711E25967C0018C091 /* ARAnnotation.swift in Sources */,
 				62474BCC1E1603FF00E3796C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +797,7 @@
 				62474BFD1E16040000E3796C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62474BFF1E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -577,6 +806,7 @@
 				62474C011E16040000E3796C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62474C031E16040000E3796C /* Build configuration list for PBXNativeTarget "Ruta Final" */ = {
 			isa = XCConfigurationList;
@@ -585,8 +815,22 @@
 				62474C051E16040000E3796C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		62AE809F1E19919600B35F1A /* RutasModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				62AE80A01E19919600B35F1A /* RutasModel.xcdatamodel */,
+			);
+			currentVersion = 62AE80A01E19919600B35F1A /* RutasModel.xcdatamodel */;
+			path = RutasModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 62474BC01E1603FF00E3796C /* Project object */;
 }

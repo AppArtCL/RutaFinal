@@ -8,14 +8,44 @@
 
 import WatchKit
 import Foundation
+import CoreLocation
 
+class InterfaceController: WKInterfaceController, CLLocationManagerDelegate {
 
-class InterfaceController: WKInterfaceController {
-
+    var locationManager: CLLocationManager = CLLocationManager()
+    var ubicacion: CLLocationCoordinate2D?
+    
+    @IBOutlet var mapa: WKInterfaceMap!
+    
+    @IBAction func hacerZoom(_ value: Float) {
+        let grados: CLLocationDegrees = CLLocationDegrees(value/10)
+        let span = MKCoordinateSpanMake(grados, grados)
+        let region = MKCoordinateRegionMake(self.ubicacion!, span)
+        self.mapa.setRegion(region)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        let currentLocation = locations[0]
+        let lat = currentLocation.coordinate.latitude
+        let long = currentLocation.coordinate.longitude
+        self.ubicacion = CLLocationCoordinate2DMake(lat, long)
+        let span = MKCoordinateSpanMake(0.1, 0.1)
+        let region = MKCoordinateRegionMake(self.ubicacion!, span)
+        self.mapa.setRegion(region)
+        self.mapa.addAnnotation(self.ubicacion!, with: .red)
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(Error.self)
+    }
+    
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        // Configure interface objects here.
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.delegate = self
+        self.locationManager.requestLocation()
     }
     
     override func willActivate() {

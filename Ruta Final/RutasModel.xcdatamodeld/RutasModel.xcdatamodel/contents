@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Puntos" representedClassName="Puntos" syncable="YES" codeGenerationType="class">
+        <attribute name="latitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitud" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_punto" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_ruta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rutas" representedClassName="Rutas" syncable="YES" codeGenerationType="class">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nombre_ruta" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Rutas" positionX="-695" positionY="-46" width="128" height="73"/>
+        <element name="Puntos" positionX="-414" positionY="-9" width="128" height="103"/>
+    </elements>
+</model>

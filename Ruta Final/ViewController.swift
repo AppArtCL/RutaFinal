@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import CoreLocation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CLLocationManagerDelegate {
 
+    var administradorUbicacion = CLLocationManager()
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Conectar administrador
+        self.administradorUbicacion.delegate = self
+        self.administradorUbicacion.requestWhenInUseAuthorization()     // Pide autorización para el GPS.
     }
 
     override func didReceiveMemoryWarning() {
